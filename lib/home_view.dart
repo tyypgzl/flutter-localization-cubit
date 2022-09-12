@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_localization/bloc/cubit/localization_cubit.dart';
-import 'package:flutter_localization/extension/context_extension.dart';
-import 'package:flutter_localization/l10n/l10n.dart';
+import 'package:flutter_localization/core/extension/context_extension.dart';
+
+import 'cubit/localization_cubit.dart';
+import 'l10n/l10n.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);
