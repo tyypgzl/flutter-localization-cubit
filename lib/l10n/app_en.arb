@@ -1,0 +1,10 @@
+{
+  "language": "English",
+  "@language": {
+    "description": "The Current Language"
+  },
+  "title": "Localization",
+  "@title": {
+    "description": "The App Title"
+  }
+}
